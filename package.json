@@ -1,0 +1,29 @@
+{
+  "name": "danielschmitz.art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node_modules/.bin/next",
+    "build": "node_modules/.bin/next build",
+    "start": "node_modules/.bin/next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielschm/danielschmitz.art.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielschm/danielschmitz.art/issues"
+  },
+  "homepage": "https://github.com/danielschm/danielschmitz.art#readme"
+}
