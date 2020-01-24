@@ -1,0 +1,21 @@
+html, body, #__next {
+    height: 100%;
+}
+
+body {
+    color: #f9f9f9;
+    background-image: url("/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--dark);
+    background-attachment: fixed;
+    background-size: 110%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f4f4f4;
+}
+
+.transparent {
+    background-color: transparent !important;
+}

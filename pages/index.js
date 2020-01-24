@@ -1,10 +1,12 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Banner from "./components/Banner";
+import Title from "./components/includes/Title";
+import Page from "./components/Page";
 
-export default () => (
-    <div>
-        <Header/>
-        <h1>Test</h1>
-        <Footer/>
-    </div>
-)
+const Index = () => (
+    <Page>
+        <Title/>
+        <Banner/>
+    </Page>
+);
+
+export default Index;
