@@ -12,7 +12,7 @@ export default () => (
             <p>This privacy.js policy ("Policy") describes how Website Operator ("Website Operator",
                 "we", "us" or "our") collects, protects and uses the personally
                 identifiable information ("Personal Information") you ("User", "you" or
-                "your") may provide on the <Link href="/" passHref><a>danielschmitz.art</a></Link> website and any of
+                "your") may provide on the <Link href="/" passHref><a>geocentricfools.com</a></Link> website and any of
                 its products or services (collectively, "Website" or "Services").
                 It also describes the choices available to you regarding our use of your Personal Information and how
                 you can access and update this information. This Policy does not apply to the practices of companies
@@ -197,8 +197,8 @@ export default () => (
 
             <h2>Contacting me</h2>
 
-            <p>If you have any questions about this Policy, please <a href="mailto:privacy@danielschmitz.art">contact
-                me</a>.</p>
+            <p>If you have any questions about this Policy, please <a href="mailto:privacy@geocentricfools.com">contact
+                us</a>.</p>
 
             <p>This document was last updated on January 21, 2020</p>
         </Container>

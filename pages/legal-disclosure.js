@@ -21,10 +21,10 @@ export default () => (
             <h2>Contact Information</h2>
             Telephone: +49 176 57826463
             <br/>
-            E-Mail: <a href="mailto:contact@danielschmitz.art">contact@danielschmitz.art</a>
+            E-Mail: <a href="mailto:contact@geocentricfools.com">contact@geocentricfools.com</a>
             <br/>
-            Internet address: <a href="https://danielschmitz.art"
-                                 target="_blank">https://danielschmitz.art</a>
+            Internet address: <a href="https://geocentricfools.com"
+                                 target="_blank">https://geocentricfools.com</a>
             <br/>
             <h2>Disclaimer</h2>
             <b>Accountability for content</b><br/>

@@ -11,7 +11,7 @@ export default () => (
 
             <p>This cookie policy ("Policy") describes what cookies are and how Website Operator ("Website
                 Operator", "we", "us" or "our") uses them on the <Link href="/"
-                                                                       passHref><a>danielschmitz.art</a></Link> website
+                                                                       passHref><a>geocentricfools.com</a></Link> website
                 and any of its products or services (collectively, "Website" or "Services").
             </p>
 
@@ -103,7 +103,7 @@ export default () => (
 
             <h2>Contacting me</h2>
 
-            <p>If you have any questions about this Policy, please <a href="mailto:privacy@danielschmitz.art">contact
+            <p>If you have any questions about this Policy, please <a href="mailto:privacy@geocentricfools.com">contact
                 me</a>.</p>
 
             <p>This document was last updated on March 28, 2019</p>

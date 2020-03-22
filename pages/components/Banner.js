@@ -14,7 +14,7 @@ export default () => (
             <div className="banner text-light">
                 <div>We are</div>
                 <h1>Geocentric Fools</h1>
-                <p>Synth-Pop Duo which loves to suprise</p>
+                <p>Synth-Pop Duo who loves to suprise</p>
                 <div className="socialIcons">
                     <a href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
                         <FontAwesomeIcon icon={faSpotify} size="lg"/>
@@ -56,12 +56,12 @@ export default () => (
             }
             
             p {
-                color: var(--gray);
+                color: white;
                 width: 18rem;
                 margin-top: 1rem;
                 padding: 0.5rem 0 0.5rem 0;
-                border-top: 1px solid rgba(255,255,255,0.2);
-                border-bottom: 1px solid rgba(255,255,255,0.2);
+                border-top: 1px solid rgba(255,255,255,0.1);
+                border-bottom: 1px solid rgba(255,255,255,0.1);
                 transition: color 1000ms ease;
             }
             
@@ -78,7 +78,7 @@ export default () => (
             }
             
             a {
-                color: var(--gray);
+                color: white;
                 margin: 0 12px;
                 transition: color 600ms ease;
             }

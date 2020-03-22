@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 const Title = props => {
-    const sTitle = props.page ? "Daniel Schmitz - " + props.page : "Daniel Schmitz";
+    const sTitle = props.page ? "Geocentric Fools - " + props.page : "Geocentric Fools";
     return (
         <Head>
             <title>{sTitle}</title>

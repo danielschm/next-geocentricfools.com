@@ -1,12 +1,12 @@
 import Banner from "./components/Banner";
 import Title from "./components/includes/Title";
-import Page from "./components/Page";
+import IndexPage from "./components/IndexPage";
 
 const Index = () => (
-    <Page>
+    <IndexPage>
         <Title/>
         <Banner/>
-    </Page>
+    </IndexPage>
 );
 
 export default Index;

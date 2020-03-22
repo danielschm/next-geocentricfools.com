@@ -12,6 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+    --text: #adadad;
     --blue: #4582EC;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -25,7 +26,8 @@
     --white: #fff;
     --gray: #868e96;
     --gray-dark: #343a40;
-    --primary: #4582EC;
+    --primary: #ecec8e;
+    --primary-hover: #d4ecb6;
     --secondary: #adb5bd;
     --success: #02B875;
     --info: #17a2b8;
@@ -2973,21 +2975,21 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #4582EC;
-    border-color: #4582EC;
+    color: black;
+    background-color: white;
+    border-color: white;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #226be8;
-    border-color: #1863e6;
+    /*color: #fff;*/
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    color: #fff;
-    background-color: #226be8;
-    border-color: #1863e6;
+    /*color: #fff;*/
+    background-color: var(--primary);
+    border-color: var(--primary);
     -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
 }
@@ -3000,9 +3002,9 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #1863e6;
-    border-color: #165edb;
+    /*color: #fff;*/
+    /*background-color: var(--primary-hover);*/
+    /*border-color: var(--primary-hover);*/
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -3682,9 +3684,9 @@ input[type="button"].btn-block {
     color: white;
     text-align: left;
     list-style: none;
-    background-color: transparent;
+    background-color: rgba(0,0,0,1);
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    /*border: 1px solid rgba(0, 0, 0, 0.15);*/
     border-radius: 0.25rem;
 }
 
@@ -3853,7 +3855,7 @@ input[type="button"].btn-block {
     color: rgba(255, 255, 255, 0.6);
     text-align: inherit;
     white-space: nowrap;
-    background-color: rgba(0, 0, 0, 0.6);
+    /*background-color: rgba(0, 0, 0, 0.6);*/
     border: 0;
 }
 
@@ -4849,6 +4851,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     padding-top: 0.3006875rem;
@@ -5045,6 +5048,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 1060px) {
     .dropdown-menu {
+        background-color: transparent;
         text-align: right;
     }
 

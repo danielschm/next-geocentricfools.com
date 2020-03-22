@@ -1,13 +1,14 @@
 .musicPage img {
     float: left;
-    height: 10rem;
-    width: 10rem;
+    height: 18rem;
+    width: 18rem;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
 }
 
 .musicPage .description {
     line-height: 1.8;
+    color: var(--text);
 }
 
 .musicPage .socialIcons a {
@@ -17,7 +18,7 @@
 }
 
 .musicPage .socialIcons a:hover {
-    color: #007BFF;
+    color: var(--primary);
 }
 
 .musicPage .subtitle {
