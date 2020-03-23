@@ -17,7 +17,11 @@ Index.getInitialProps = async function () {
         "Dan is the man and Matt is the bat",
         "Feed me Seymour!",
         "The sun shall kiss y'all",
-        "Synth-Pop Duo who loves to suprise"
+        "Synth-Pop Duo who loves to suprise",
+        "Platypus and Chameleons rule",
+        "Gan-Pau-Da-Ti und Frühlingsrolle bitte!",
+        "TurnbackDreh... Hahaha nope",
+        "Swearing is caring"
     ];
 
     let iIndex = Math.random() * (aSlogans.length - 0.001);

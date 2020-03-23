@@ -9,17 +9,18 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Index = () => (
+const Index = props => (
     <Page>
         <Title page="About"/>
         <Container>
             <Row>
                 <Col>
                     <h2>Matt Platypus</h2>
-                    <h3>Vocals, Songwriting</h3>
+                    <h4>aka {props.matt}</h4>
                     <div className="avatar">
                         <img alt="Matt" src="/img/matt.jpg"/>
                     </div>
+                    <h3>Vocals, Songwriting</h3>
                     <p>
                         The mind behind the rhymes - when he starts writing you won't be able to stop him from emitting
                         pure originality with a scent of twisted mindfuck.
@@ -36,10 +37,11 @@ const Index = () => (
                 </Col>
                 <Col>
                     <h2>Dan Leo</h2>
-                    <h3>Keys, Guitar, Production</h3>
+                    <h4>aka {props.dan}</h4>
                     <div className="avatar">
                         <img alt="Dan" src="/img/dan.jpg"/>
                     </div>
+                    <h3>Keys, Guitar, Production</h3>
                     <p>
                         A soft smile on his face, like a marshmallow bouncing around on a trampoline in a palace filled
                         of wool, and a concentrated persistent stare like a chameleon watching a winged insect at the
@@ -57,6 +59,7 @@ const Index = () => (
                 </Col>
             </Row>
         </Container>
+        <br/>
         <style jsx>{`
             h2 {
                 text-transform: uppercase;
@@ -71,6 +74,16 @@ const Index = () => (
                 font-size: 0.8rem;
                 font-weight: 300;
                 padding: 0;
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+            
+            h4 {
+                letter-spacing: 0rem;
+                font-size: 1rem;
+                font-style: italic;
+                font-weight: 400;
+                color: var(--text);
             }
             
             p {
@@ -89,5 +102,86 @@ const Index = () => (
         `}</style>
     </Page>
 );
+
+Index.getInitialProps = async function () {
+    const aDan = [
+        "Dan leo",
+        "Lion King",
+        "Marshmallow face",
+        "Dan the man",
+        "Dan outside of a Can",
+        "Leo Dan",
+        "Dab Dan cause he dabs",
+        "Chameleon ",
+        "Not so smooth criminal",
+        //--
+        "Dan leo",
+        "Lion King",
+        "Marshmallow face",
+        "Dan the man",
+        "Dan outside of a Can",
+        "Leo Dan",
+        "Dab Dan cause he dabs",
+        "Chameleon ",
+        "Not so smooth criminal",
+        //--
+        "Dan leo",
+        "Lion King",
+        "Marshmallow face",
+        "Dan the man",
+        "Dan outside of a Can",
+        "Leo Dan",
+        "Dab Dan cause he dabs",
+        "Chameleon ",
+        "Not so smooth criminal",
+        "Lein Ad",
+        "Klaus",
+        "Windfried",
+        "Wolfgang",
+        "Fritz",
+        "Rudi",
+        "Anton"
+    ];
+
+    const aMatt = [
+        "Matt Platypus",
+        "Platypussy",
+        "Matt the bat",
+        "Mattael Jackson",
+        "Mad Matt",
+        "Platypus",
+        "Ne Brot",
+        "Lord of Ants",
+        //--
+        "Matt Platypus",
+        "Platypussy",
+        "Matt the bat",
+        "Mattael Jackson",
+        "Mad Matt",
+        "Platypus",
+        "Ne Brot",
+        "Lord of Ants",
+        //--
+        "Matt Platypus",
+        "Platypussy",
+        "Matt the bat",
+        "Mattael Jackson",
+        "Mad Matt",
+        "Platypus",
+        "Ne Brot",
+        "Lord of Ants",
+        //--
+        "Robert",
+        "Hagen",
+        "Hermann",
+        "Waldemar",
+        "Gottfried"
+    ];
+
+    return {
+        matt: aMatt[parseInt(Math.random() * (aMatt.length - 0.001), 10)],
+        dan: aDan[parseInt(Math.random() * (aDan.length - 0.001), 10)]
+    };
+};
 
 export default Index;

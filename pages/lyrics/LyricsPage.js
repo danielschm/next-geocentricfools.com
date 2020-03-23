@@ -9,5 +9,11 @@ export default props => (
             <br/>
             <br/>
         </div>
+        <style jsx>{`
+            div {
+                color: var(--text);
+            }
+        `}
+        </style>
     </Page>
 )
