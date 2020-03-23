@@ -103,85 +103,63 @@ const Index = props => (
     </Page>
 );
 
-Index.getInitialProps = async function () {
-    const aDan = [
-        "Dan leo",
-        "Lion King",
-        "Marshmallow face",
-        "Dan the man",
-        "Dan outside of a Can",
-        "Leo Dan",
-        "Dab Dan cause he dabs",
-        "Chameleon ",
-        "Not so smooth criminal",
-        //--
-        "Dan leo",
-        "Lion King",
-        "Marshmallow face",
-        "Dan the man",
-        "Dan outside of a Can",
-        "Leo Dan",
-        "Dab Dan cause he dabs",
-        "Chameleon ",
-        "Not so smooth criminal",
-        //--
-        "Dan leo",
-        "Lion King",
-        "Marshmallow face",
-        "Dan the man",
-        "Dan outside of a Can",
-        "Leo Dan",
-        "Dab Dan cause he dabs",
-        "Chameleon ",
-        "Not so smooth criminal",
-        "Lein Ad",
-        "Klaus",
-        "Windfried",
-        "Wolfgang",
-        "Fritz",
-        "Rudi",
-        "Anton"
-    ];
+const aDan = [
+    "Dan Leo",
+    "Lion King",
+    "Marshmallow face",
+    "Dan the Man",
+    "Dan Outside of a Can",
+    "Leo Dan",
+    "Dab Dan Cause He Dabs",
+    "Chameleon",
+    "Not so Smooth Criminal",
+    "Lein Ad",
+    "DJan",
+    "Danthesizer",
+    "Dan-Ce",
+    "Daddy"
+];
 
-    const aMatt = [
-        "Matt Platypus",
-        "Platypussy",
-        "Matt the bat",
-        "Mattael Jackson",
-        "Mad Matt",
-        "Platypus",
-        "Ne Brot",
-        "Lord of Ants",
-        //--
-        "Matt Platypus",
-        "Platypussy",
-        "Matt the bat",
-        "Mattael Jackson",
-        "Mad Matt",
-        "Platypus",
-        "Ne Brot",
-        "Lord of Ants",
-        //--
-        "Matt Platypus",
-        "Platypussy",
-        "Matt the bat",
-        "Mattael Jackson",
-        "Mad Matt",
-        "Platypus",
-        "Ne Brot",
-        "Lord of Ants",
-        //--
-        "Robert",
-        "Hagen",
-        "Hermann",
-        "Waldemar",
-        "Gottfried"
-    ];
+const aMatt = [
+    "Matt Platypus",
+    "Platypussy",
+    "Matt the Bat",
+    "Mattael Jackson",
+    "Mad Matt",
+    "Platypus",
+    "Ne Brot",
+    "Lord of Ants",
+    "Matt the Rat",
+    "Matt the Cat",
+    "Matt the Hat",
+    "Platt Matypus",
+    "Mad Platybus",
+    "M-A-Double-T",
+    "The Barkeeper",
+    "Ben Rich"
+];
 
+function getRandomValue(a) {
+    const i = parseInt(Math.random() * (a.length - 0.001), 10);
+    return a[i];
+}
+
+function getFunName() {
     return {
-        matt: aMatt[parseInt(Math.random() * (aMatt.length - 0.001), 10)],
-        dan: aDan[parseInt(Math.random() * (aDan.length - 0.001), 10)]
-    };
+        dan: getRandomValue(aDan),
+        matt: getRandomValue(aMatt)
+    }
+}
+
+function getOldName() {
+    return {
+        dan: getRandomValue(["Klaus", "Winfried", "Wolfgang", "Fritz", "Rudi", "Anton"]),
+        matt: getRandomValue(["Robert", "Hagen", "Hermann", "Waldemar", "Gottfried"])
+    }
+}
+
+Index.getInitialProps = function () {
+    return Math.random() > 0.2 ? getFunName() : getOldName();
 };
 
 export default Index;
