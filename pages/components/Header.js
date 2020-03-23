@@ -6,7 +6,6 @@ import Logo from './Logo';
 import Link from 'next/link';
 
 const Header = props => (
-    <div>
         <Navbar className={props.className} bg="dark" variant="dark" expand="lg" sticky="top">
             <Link href="/" passHref>
                 <div id="logo">
@@ -98,8 +97,7 @@ const Header = props => (
                     </Link>
                 </Nav>
             </Navbar.Collapse>
-        </Navbar>
-        <style jsx>{`
+            <style jsx>{`
             #logo {
                 height: 4rem;
                 padding-right: 1.5rem;
@@ -128,7 +126,7 @@ const Header = props => (
                 }
             }
         `}</style>
-    </div>
+        </Navbar>
 );
 
 export default Header;

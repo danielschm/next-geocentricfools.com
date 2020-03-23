@@ -19,10 +19,14 @@ const Page = props => (
         <style jsx>{`
             .padding-top {
                 padding-top: 2rem;
+                overflow: auto;
+                flex: 1;
             }
             
             .page {
                 height: 100%;
+                display: flex;
+                flex-direction: column;
             }
             
             .backdrop {
