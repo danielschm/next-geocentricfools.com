@@ -8,7 +8,5 @@ export default props => (
         </div>
         <br/>
         <br/>
-        <br/>
-        <br/>
     </Page>
 )

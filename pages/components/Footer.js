@@ -17,9 +17,9 @@ export default props => {
                 }
                 
                 #footer span {
-                    font-family: "Montserrat", sans-serif;
+                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                     letter-spacing: 0.1rem;
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                     color: rgba(255,255,255,0.4);
                 }
             `}</style>
