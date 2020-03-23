@@ -21,7 +21,12 @@ Index.getInitialProps = async function () {
         "Platypus and Chameleons rule",
         "Gan-Pau-Da-Ti und Frühlingsrolle bitte!",
         "TurnbackDreh... Hahaha nope",
-        "Swearing is caring"
+        "Swearing is caring",
+        "We programed happiness on your computer",
+        "Suh dude?",
+        "And we are so fresh and so clean and also we are frisch und sauber",
+        "And we make music... Surprise m***fckr! (Can we write that?)",
+        "But the world is a globe"
     ];
 
     let iIndex = Math.random() * (aSlogans.length - 0.001);

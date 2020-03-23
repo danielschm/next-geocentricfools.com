@@ -14,7 +14,9 @@ const Banner = (props) => (
             <div className="banner text-light">
                 <div>We are</div>
                 <h1>Geocentric Fools</h1>
-                <p>{props.slogan}</p>
+                <div className="typewriter">
+                    <div className="typewriter-text">{props.slogan}</div>
+                </div>
                 <div className="socialIcons">
                     <a href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
                         <FontAwesomeIcon icon={faSpotify} size="lg"/>
@@ -55,11 +57,42 @@ const Banner = (props) => (
                 text-transform: uppercase;
             }
             
-            p {
+            .typewriter {
+                display: inline-block;
+            }
+
+            .typewriter-text {
+                overflow: hidden;
+                letter-spacing: 0.1rem;
+                animation: typing 4s steps(40, end), blink 1s step-end infinite;
+                white-space: nowrap;
+                font-size: 1rem;
+                border-right: 4px solid orange;
+                box-sizing: border-box;
+            }
+            
+            @keyframes typing {
+                from { 
+                    width: 0% 
+                }
+                to { 
+                    width: 100% 
+                }
+            }
+            
+            @keyframes blink {
+                from, to { 
+                    border-color: transparent 
+                }
+                50% { 
+                    border-color: white; 
+                }
+            }
+            
+            .typewriter {
                 color: white;
-                width: 18rem;
-                margin-top: 1rem;
                 padding: 0.5rem 0 0.5rem 0;
+                margin-bottom: 1rem;
                 border-top: 1px solid rgba(255,255,255,0.1);
                 border-bottom: 1px solid rgba(255,255,255,0.1);
                 transition: color 1000ms ease;

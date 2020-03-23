@@ -3,7 +3,7 @@ export default props => {
         <div>
             <div id="footer">
                 <span>
-                    © ℗ 2019 GEOCENTRIC FOOLS
+                    © ℗ 2020 GEOCENTRIC FOOLS
                 </span>
             </div>
             <style jsx>{`
