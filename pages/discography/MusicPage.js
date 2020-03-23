@@ -6,5 +6,9 @@ export default props => (
         <div className="musicPage">
         {props.children}
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </Page>
 )

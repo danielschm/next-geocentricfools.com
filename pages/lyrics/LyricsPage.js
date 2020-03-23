@@ -6,6 +6,8 @@ export default props => (
             {props.children}
             <br/>
             <br/>
+            <br/>
+            <br/>
         </div>
     </Page>
 )
