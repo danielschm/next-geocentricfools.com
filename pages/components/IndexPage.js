@@ -5,16 +5,17 @@ import Header from "./Header";
 import Includes from './includes/Includes';
 import Footer from "./Footer";
 
-const Page = props => (
-    <div className="page">
-        <Includes/>
-        <div className="bg"/>
-        <Header className="transparent"/>
-        <div className="padding-top">
-            {props.children}
-        </div>
-        <Footer/>
-        <style jsx>{`
+function Page(props) {
+    return (
+        <div className="page">
+            <Includes/>
+            <div className="bg"/>
+            <Header className="transparent"/>
+            <div className="padding-top">
+                {props.children}
+            </div>
+            <Footer/>
+            <style jsx>{`
             .padding-top {
                 padding-top: 2rem;
             }
@@ -36,7 +37,8 @@ const Page = props => (
                 background-attachment: fixed;
             }
         `}</style>
-    </div>
-);
+        </div>
+    )
+}
 
 export default Page;

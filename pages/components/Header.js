@@ -89,9 +89,7 @@ const Header = props => (
                     <div></div>
                 </div>
                 <Nav>
-                    <Link href="mailto:contact@geocentricfools.com" passHref>
-                        <Nav.Link>Contact</Nav.Link>
-                    </Link>
+                    <Nav.Link href="mailto:contact@geocentricfools.com">Contact</Nav.Link>
                     <Link href="/privacy" passHref>
                         <Nav.Link>Privacy</Nav.Link>
                     </Link>

@@ -8,13 +8,13 @@ import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
 import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
 import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
 
-export default () => (
+const Banner = (props) => (
     <div className="bannerContainer">
         <div className="container">
             <div className="banner text-light">
                 <div>We are</div>
                 <h1>Geocentric Fools</h1>
-                <p>Synth-Pop Duo who loves to suprise</p>
+                <p>{props.slogan}</p>
                 <div className="socialIcons">
                     <a href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
                         <FontAwesomeIcon icon={faSpotify} size="lg"/>
@@ -98,3 +98,4 @@ export default () => (
     </div>
 );
 
+export default Banner;
