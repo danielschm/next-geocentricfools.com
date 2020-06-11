@@ -42,8 +42,8 @@ const Page = props => (
                 height: 100%;
                 width: 100%;
                 position: fixed;
-                background-image: url("/img/background.jpg");
-                background-position: 53%;
+                background-image: url("/img/bg/bg-2020.jpg");
+                background-position: 38%;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-color: black;
@@ -55,8 +55,8 @@ const Page = props => (
                 height: 100%;
                 width: 100%;
                 position: fixed;
-                background-image: url("/img/background.jpg");
-                background-position: 53%;
+                background-image: url("/img/bg/bg-2020.jpg");
+                background-position: 38%;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-color: black;

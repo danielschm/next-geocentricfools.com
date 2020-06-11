@@ -14,7 +14,7 @@ const Index = props => (
                     <h2>Matt Platypus</h2>
                     <h4>aka {props.matt}</h4>
                     <div className="avatar">
-                        <img alt="Matt" src="/img/matt.jpg"/>
+                        <img alt="Matt" src="/img/potraits/website-matt.jpg"/>
                     </div>
                     <h3>Vocals, Songwriting</h3>
                     <p>
@@ -35,7 +35,7 @@ const Index = props => (
                     <h2>Dan Leo</h2>
                     <h4>aka {props.dan}</h4>
                     <div className="avatar">
-                        <img alt="Dan" src="/img/dan.jpg"/>
+                        <img alt="Dan" src="/img/potraits/website-dan.jpg"/>
                     </div>
                     <h3>Keys, Guitar, Production</h3>
                     <p>
