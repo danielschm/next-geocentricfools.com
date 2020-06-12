@@ -10,9 +10,9 @@ export default () => (
             Information in accordance with Section 5 TMG
             <br/>
             <br/>
-            Krummbachweg 8
+            Gerottener Weg 27
             <br/>
-            53819 Neunkirchen-Seelscheid
+            53501 Rösrath
             <br/>
             Germany
             <br/>
