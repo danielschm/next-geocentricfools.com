@@ -48,6 +48,12 @@ const Banner = (props) => (
                 }
             }
             
+            @media only screen and (max-height: 690px) {
+                .slogan {
+                    background: rgba(0,0,0,0.3);
+                }
+            }
+            
             h1 {
                 text-transform: uppercase;
             }
@@ -61,8 +67,10 @@ const Banner = (props) => (
                 line-height: 1.3;
                 font-size: 1.3rem;
                 color: white;
-                padding: 0.5rem 0 0.5rem 0;
+                padding: 0.5rem 0 0.5rem 1rem;
                 margin-bottom: 1rem;
+                margin-left: -1rem;
+                overflow: hidden;
                 border-top: 1px solid rgba(255,255,255,0.1);
                 border-bottom: 1px solid rgba(255,255,255,0.1);
                 transition: color 1000ms ease;

@@ -11,17 +11,17 @@ const Index = ({slogan}) => (
 
 Index.getInitialProps = async function () {
     const aSlogans = [
-        ["We will have a large bowl of pasta afterwards"],
+        ["We will have a large", "bowl of pasta afterwards"],
         ["Kilroy was here"],
         ["Actually this is only a side project","and we play Worms professionally"],
-        ["Dan is the man and Matt is the bat"],
-        ["Dan is the man and Matt is the rat"],
+        ["Dan is the man and", "Matt is the bat"],
+        ["Dan is the man and", "Matt is the rat"],
         ["Feed me Seymour!"],
         ["The sun shall kiss y'all"],
         ["Synth-Pop Duo who loves to suprise"],
         ["Platypus and Chameleons rule"],
         ["Swearing is caring"],
-        ["We programed happiness on your computer"],
+        ["We programed happiness", "on your computer"],
         ["Suh dude?"],
         ["And we are so fresh and so clean","and also we are frisch und sauber"],
         ["But the world is a globe"]
