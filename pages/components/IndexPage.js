@@ -16,7 +16,7 @@ function Page(props) {
                     {props.children}
                 </div>
                 <div className="footerWrapper">
-                    <Footer color="#343a40"/>
+                    <Footer background="rgba(0,0,0,0.15)"/>
                 </div>
             </div>
             <style jsx>{`

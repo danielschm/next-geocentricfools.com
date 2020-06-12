@@ -7,25 +7,25 @@ import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
 
 export default props => {
     return (
-        <div id="footer">
+        <div id="footer" style={{background: props.background || "transparent"}}>
             <div className="socialIcons">
-                <a style={{color: props.color || 'white'}} href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
+                <a href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
                     <FontAwesomeIcon icon={faSpotify} size="lg"/>
                 </a>
-                <a style={{color: props.color || 'white'}} href="https://facebook.com/geocentricfools" target="_blank">
+                <a href="https://facebook.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} size="lg"/>
                 </a>
-                <a style={{color: props.color || 'white'}} href="https://instagram.com/geocentricfools" target="_blank">
+                <a href="https://instagram.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} size="lg"/>
                 </a>
-                <a style={{color: props.color || 'white'}} href="https://twitter.com/geocentricfools" target="_blank">
+                <a href="https://twitter.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size="lg"/>
                 </a>
-                <a style={{color: props.color || 'white'}} href="https://twitter.com/geocentricfools" target="_blank">
+                <a href="https://twitter.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} size="lg"/>
                 </a>
             </div>
-            <span style={{color: props.color || 'white'}}>
+            <span>
                     © ℗ 2020 GEOCENTRIC FOOLS
                 </span>
             <style jsx>{`
@@ -53,12 +53,13 @@ export default props => {
                 }
                 
                 a {
+                    color: white;
                     margin: 0 12px;
                     transition: color 300ms ease;
                 }
                 
                 a:hover {
-                    color: gray !important;
+                    color: var(--primary) !important;
                 }
             `}</style>
         </div>
