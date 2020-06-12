@@ -11,16 +11,31 @@ const Page = props => (
         <div className="bg"/>
         <div className="bg-blur"/>
         <div className="backdrop"/>
-        <Header className="transparent"/>
-        <div className="padding-top">
-            {props.children}
+        <div id="content">
+            <Header className="transparent"/>
+            <div className="padding-top">
+                {props.children}
+            </div>
+            <div className="footerWrapper">
+                <Footer/>
+            </div>
         </div>
-        <Footer/>
         <style jsx>{`
+             #content {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            
+            .footerWrapper {
+                display: flex;
+                align-items: flex-end;
+            }
+        
             .padding-top {
                 padding-top: 2rem;
                 overflow: auto;
-                flex: 1;
+                height: 100%;
             }
             
             .page {

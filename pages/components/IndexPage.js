@@ -10,12 +10,28 @@ function Page(props) {
         <div className="page">
             <Includes/>
             <div className="bg"/>
-            <Header className="transparent"/>
-            <div className="padding-top">
-                {props.children}
+            <div id="content">
+                <Header className="transparent"/>
+                <div className="padding-top">
+                    {props.children}
+                </div>
+                <div className="footerWrapper">
+                    <Footer color="#343a40"/>
+                </div>
             </div>
-            <Footer/>
             <style jsx>{`
+            #content {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            
+            .footerWrapper {
+                flex: 1;
+                display: flex;
+                align-items: flex-end;
+            }
+            
             .padding-top {
                 padding-top: 2rem;
             }

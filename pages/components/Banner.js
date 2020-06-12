@@ -23,23 +23,6 @@ const Banner = (props) => (
                         )
                     }) : ""}
                 </div>
-                <div className="socialIcons">
-                    <a href="https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK" target="_blank">
-                        <FontAwesomeIcon icon={faSpotify} size="lg"/>
-                    </a>
-                    <a href="https://facebook.com/geocentricfools" target="_blank">
-                        <FontAwesomeIcon icon={faFacebook} size="lg"/>
-                    </a>
-                    <a href="https://instagram.com/geocentricfools" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} size="lg"/>
-                    </a>
-                    <a href="https://twitter.com/geocentricfools" target="_blank">
-                        <FontAwesomeIcon icon={faSoundcloud} size="lg"/>
-                    </a>
-                    <a href="https://twitter.com/geocentricfools" target="_blank">
-                        <FontAwesomeIcon icon={faTwitter} size="lg"/>
-                    </a>
-                </div>
             </div>
             <Link href="/about" passHref>
                 <a>
@@ -57,6 +40,12 @@ const Banner = (props) => (
             
             .banner {
                 padding-top: 15%;
+            }
+            
+            @media only screen and (max-height: 800px) and (max-width: 436px) {
+                .banner {
+                    padding-top: 0;
+                }
             }
             
             h1 {
@@ -120,24 +109,6 @@ const Banner = (props) => (
             
             p:hover {
                 color: lightgray;
-            }
-            
-            .socialIcons {
-                margin-bottom: 1.5rem;
-            }
-            
-            .socialIcons a:first-child {
-                margin-left: 0;
-            }
-            
-            a {
-                color: white;
-                margin: 0 12px;
-                transition: color 600ms ease;
-            }
-            
-            a:hover {
-                color: var(--primary);
             }
             
             .aboutButton {

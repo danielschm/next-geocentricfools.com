@@ -20,13 +20,10 @@ Index.getInitialProps = async function () {
         ["The sun shall kiss y'all"],
         ["Synth-Pop Duo who loves to suprise"],
         ["Platypus and Chameleons rule"],
-        // ["Gan-Pau-Da-Ti und Frühlingsrolle bitte!"],
-        // ["TurnbackDreh... Hahaha nope"],
         ["Swearing is caring"],
         ["We programed happiness on your computer"],
         ["Suh dude?"],
         ["And we are so fresh and so clean","and also we are frisch und sauber"],
-        // ["And we make music... Surprise m***fckr!","(Can we write that?)"],
         ["But the world is a globe"]
     ];
 
