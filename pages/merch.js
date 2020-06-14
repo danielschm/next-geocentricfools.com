@@ -11,9 +11,9 @@ const Merch = props => (
         <div id="dialog">
             <div className="inner">
                 <div className="content">
-                    Please contact us via <a target={"_blank"}
+                    Please contact us via <br/><a target={"_blank"}
                                              href={"https://instagram.com/geocentricfools"}>Instagram</a> or <a
-                    target={"_blank"} href={"https://facebook.com/geocentricfools"}>Facebook</a>! ♥
+                    target={"_blank"} href={"https://facebook.com/geocentricfools"}>Facebook</a>!
                 </div>
                 <div className="button">
                     <button onClick={closeDialog}>X</button>
