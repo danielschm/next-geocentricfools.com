@@ -18,7 +18,7 @@ export default props => {
                 <a href="https://instagram.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} size="lg"/>
                 </a>
-                <a href="https://twitter.com/geocentricfools" target="_blank">
+                <a href="https://soundcloud.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size="lg"/>
                 </a>
                 <a href="https://twitter.com/geocentricfools" target="_blank">
