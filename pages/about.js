@@ -11,7 +11,7 @@ const Index = props => (
         <Container>
             <Row>
                 <Col>
-                    <h1>Geocentric Fools</h1>
+                    <h1>About</h1>
                     <p> What you see is the sun spinning round... the earth.
                         Now hold on, you scientist, flat earth people and Terence Pratchett lovers. Let us explain...
                     </p>
