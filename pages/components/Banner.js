@@ -24,10 +24,10 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
-            <Link href="/merch" passHref>
+            <Link href="/about" passHref>
                 <a>
                     <Button className="aboutButton">
-                        <span className="buttonText">Merch</span>
+                        <span className="buttonText">About</span>
                         <FontAwesomeIcon className="navIcon" icon={faArrowRight}/>
                     </Button>
                 </a>

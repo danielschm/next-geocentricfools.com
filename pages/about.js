@@ -11,6 +11,41 @@ const Index = props => (
         <Container>
             <Row>
                 <Col>
+                    <h1>Geocentric Fools</h1>
+                    <p> What you see is the sun spinning round... the earth.
+                        Now hold on, you scientist, flat earth people and Terence Pratchett lovers. Let us explain...
+                    </p>
+                    <p>
+                        Our logo is supposed to show the orbit of the sun going around the earth, which is the old
+                        fashioned
+                        geocentric worldview, which to it's time was proven to be the righteous. Of course only until it
+                        was
+                        proven wrong, as so many worldviews were before... <br/><b>There is so much proof that proves,
+                        that
+                        proof is wrong!</b>
+                    </p>
+                    <p>
+                        Damn! You see what we mean? So simply we called ourselves <b id="ourName">"Geocentric
+                        Fools"</b> just to show
+                        how
+                        foolish we
+                        could be in thinking we understand the true meaning of anything... Well just another fool on the
+                        hill we
+                        guess.
+                    </p>
+                    <p>
+                        <span id="ps">
+                        PS:
+                        If science someday should reveal that the heliocentric worldview was a mistake all along and
+                        there
+                        is
+                        evidence for another worldview... we promise to rename ourselves to Heliocentric Fools.
+                        </span>
+                    </p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <h2>Matt Platypus</h2>
                     <h4>aka {props.matt}</h4>
                     <div className="avatar">
@@ -49,14 +84,26 @@ const Index = props => (
                         your head even harder.
                     </p>
                     <p>
-                        This atypical nerd studies computer science and embodies the technical brain behind all of our
-                        productions.
+                        This atypical nerd loves everything concerning technology and embodies the technical brain
+                        behind all of our productions.
                     </p>
                 </Col>
             </Row>
         </Container>
         <br/>
         <style jsx>{`
+            #ourName {
+                color: var(--primary);
+            }
+        
+            #ps {
+                opacity: 0.5;
+            }
+            
+            #ps:hover {
+                opacity: 1;
+            }
+        
             h2 {
                 text-transform: uppercase;
                 letter-spacing: 0.2rem;
