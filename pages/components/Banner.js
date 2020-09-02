@@ -24,6 +24,9 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
+            <iframe width="100%" height="10" scrolling="no" frameBorder="no" allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/608795004&color=%23c769e9&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <br/>
             <Link href="/about" passHref>
                 <a>
                     <Button className="aboutButton">
@@ -34,6 +37,20 @@ const Banner = (props) => (
             </Link>
         </div>
         <style jsx>{`
+            iframe {
+                height: 10rem;
+                max-width: 30rem;
+                margin-bottom: 1rem;
+            }
+            
+            #widget {
+                background: rgba(0,0,0,0.2);
+            }
+            
+            iframe .g-box-full {
+                background: transparent;
+            }
+        
             .bannerContainer {
                 flex: 1;
             }
