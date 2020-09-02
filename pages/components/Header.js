@@ -34,6 +34,9 @@ const Header = props => (
                     <Link href="/discography/concretecircus" passHref>
                         <NavDropdown.Item>Concrete Circus</NavDropdown.Item>
                     </Link>
+                    <Link href="/discography/sonntag-auf-dem-mond" passHref>
+                        <NavDropdown.Item>Sonntag auf dem Mond</NavDropdown.Item>
+                    </Link>
                 </NavDropdown>
                 <NavDropdown title="Lyrics" id="basic-nav-dropdown">
                     <NavDropdown title="Future Is On A Killing Spree" id="basic-nav-dropdown">

@@ -4,6 +4,7 @@ import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
 import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
+import {faYoutube} from "@fortawesome/free-brands-svg-icons/faYoutube";
 
 export default props => {
     return (
@@ -20,6 +21,9 @@ export default props => {
                 </a>
                 <a href="https://soundcloud.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size="lg"/>
+                </a>
+                <a href="https://youtube.com/channel/UC7PEKkhCaDoLMfEo0H-apeg" target="_blank">
+                    <FontAwesomeIcon icon={faYoutube} size="lg"/>
                 </a>
                 <a href="https://twitter.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} size="lg"/>

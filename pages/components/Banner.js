@@ -24,14 +24,14 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
-            <Link href="/about" passHref>
-                <a>
+            {/*<Link href="/about" passHref>*/}
+                <a href="https://open.spotify.com/track/1OYCm5FVdjmCbHH2D5Nhwv?si=f8k2wiTwT6emBMX_nOne9g" target="_blank">
                     <Button className="aboutButton">
-                        <span className="buttonText">About</span>
+                        <span className="buttonText">New Single</span>
                         <FontAwesomeIcon className="navIcon" icon={faArrowRight}/>
                     </Button>
                 </a>
-            </Link>
+            {/*</Link>*/}
         </div>
         <style jsx>{`
             .bannerContainer {
@@ -125,6 +125,7 @@ const Banner = (props) => (
             
             .buttonText {
                 margin-right: 0.5rem;
+                font-weight: 600;
             }
         `}</style>
     </div>
