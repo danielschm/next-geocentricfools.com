@@ -28,7 +28,7 @@ const Banner = (props) => (
                 <a href="https://open.spotify.com/track/1OYCm5FVdjmCbHH2D5Nhwv?si=f8k2wiTwT6emBMX_nOne9g" target="_blank">
                     <Button className="aboutButton">
                         <span className="buttonText">New Single</span>
-                        <FontAwesomeIcon className="navIcon" icon={faArrowRight}/>
+                        <FontAwesomeIcon className="navIcon" icon={faSpotify} size="lg"/>
                     </Button>
                 </a>
             {/*</Link>*/}
