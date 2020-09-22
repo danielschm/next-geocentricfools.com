@@ -24,16 +24,35 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
-            {/*<Link href="/about" passHref>*/}
-                <a href="https://open.spotify.com/track/1OYCm5FVdjmCbHH2D5Nhwv?si=f8k2wiTwT6emBMX_nOne9g" target="_blank">
-                    <Button className="aboutButton">
-                        <span className="buttonText">New Single</span>
-                        <FontAwesomeIcon className="navIcon" icon={faSpotify} size="lg"/>
+            <a style={{"margin-left": 0}}
+               href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
+               target={"_blank"}>
+                <Button>
+                    <span className="bannerButton textMargin">Spotify</span>
+                    <FontAwesomeIcon className="navIcon" icon={faSpotify}/>
+                </Button>
+            </a>
+            <Link href="/about" passHref>
+                <a>
+                    <Button id="secondaryButton" style={{background: "rgba(0,0,0,0.5)"}}>
+                        <span className="bannerButton secondary">About</span>
                     </Button>
                 </a>
-            {/*</Link>*/}
+            </Link>
         </div>
         <style jsx>{`
+             .bannerButton {
+                font-weight: 500 !important;
+            }
+            
+            .textMargin {
+                margin-right: 0.5rem;
+            }
+            
+            .secondary {
+                color: var(--primary);
+            }
+            
             .bannerContainer {
                 flex: 1;
             }
@@ -119,13 +138,14 @@ const Banner = (props) => (
                 color: lightgray;
             }
             
-            .aboutButton {
-                font-weight: 500 !important;
+            a {
+                color: var(--gray);
+                margin: 0 12px;
+                transition: color 600ms ease;
             }
             
-            .buttonText {
-                margin-right: 0.5rem;
-                font-weight: 600;
+            a:hover {
+                color: var(--primary);
             }
         `}</style>
     </div>
