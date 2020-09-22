@@ -101,10 +101,10 @@ export default () => (
                 terms
                 of this Policy, you are not authorized to use or access the Website and its Services.</p>
 
-            <h2>Contacting me</h2>
+            <h2>Contacting us</h2>
 
             <p>If you have any questions about this Policy, please <a href="mailto:privacy@geocentricfools.com">contact
-                me</a>.</p>
+                us</a>.</p>
 
             <p>This document was last updated on March 28, 2019</p>
             <br/>

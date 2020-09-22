@@ -195,7 +195,7 @@ export default () => (
                 Website or its Services you agree to be bound by this Policy. If you do not agree to abide by the terms
                 of this Policy, you are not authorized to use or access the Website and its Services.</p>
 
-            <h2>Contacting me</h2>
+            <h2>Contacting us</h2>
 
             <p>If you have any questions about this Policy, please <a href="mailto:privacy@geocentricfools.com">contact
                 us</a>.</p>
