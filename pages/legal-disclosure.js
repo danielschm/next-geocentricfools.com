@@ -13,7 +13,7 @@ export default () => (
             <p>
                 Gerottener Weg 27
                 <br/>
-                53501 Rösrath
+                51503 Rösrath
                 <br/>
                 Germany
                 <br/>
@@ -83,6 +83,7 @@ export default () => (
         <style jsx>{`
             p {
                 color: var(--text);
+                line-height: 1.7;
             }
         `}</style>
     </Page>

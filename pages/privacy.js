@@ -205,6 +205,7 @@ export default () => (
         <style jsx>{`
             p {
                 color: var(--text);
+                line-height: 1.7;
             }
         `}</style>
     </Page>
