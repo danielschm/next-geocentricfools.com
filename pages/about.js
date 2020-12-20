@@ -47,9 +47,9 @@ const Index = props => (
             <Row>
                 <Col>
                     <h2>Matt Platypus</h2>
-                    <h4>aka {props.matt}</h4>
+                    <h4>aka {props.matt} ({props.ageMatt})</h4>
                     <div className="avatar">
-                        <img alt="Matt" src="/img/potraits/website-matt.jpg"/>
+                        <img alt="Matt" src={props.sourceMatt}/>
                     </div>
                     <h3>Vocals, Songwriting</h3>
                     <p>
@@ -68,9 +68,9 @@ const Index = props => (
                 </Col>
                 <Col>
                     <h2>Dan Leo</h2>
-                    <h4>aka {props.dan}</h4>
+                    <h4>aka {props.dan} ({props.ageDan})</h4>
                     <div className="avatar">
-                        <img alt="Dan" src="/img/potraits/website-dan.jpg"/>
+                        <img alt="Dan" src={props.sourceDan}/>
                     </div>
                     <h3>Keys, Guitar, Production</h3>
                     <p>
@@ -189,15 +189,23 @@ function getRandomValue(a) {
 
 function getFunName() {
     return {
+        ageDan: new Date().getFullYear() - 1998 - (new Date().getMonth() < 2 ? 1 : 0),
+        ageMatt: new Date().getFullYear() - 1996 - (new Date().getMonth() < 5 ? 1 : 0),
         dan: getRandomValue(aDan),
-        matt: getRandomValue(aMatt)
+        matt: getRandomValue(aMatt),
+        sourceDan: "/img/potraits/website-dan.jpg",
+        sourceMatt: "/img/potraits/website-matt.jpg"
     }
 }
 
 function getOldName() {
     return {
-        dan: getRandomValue(["Klaus", "Winfried", "Wolfgang", "Fritz", "Rudi", "Anton"]),
-        matt: getRandomValue(["Robert", "Hagen", "Hermann", "Waldemar", "Gottfried"])
+        ageDan: new Date().getFullYear() - 1950,
+        ageMatt: new Date().getFullYear() - 1948,
+        dan: getRandomValue(["Klaus", "Achim", "Gerhard", "Fritz", "Norbert", "Wilhem"]),
+        matt: getRandomValue(["Willibald", "Hagen", "Hermann", "Hartwig", "Gottfried", "Herbert"]),
+        sourceDan: "/img/potraits/website-dan-old.jpg",
+        sourceMatt: "/img/potraits/website-matt-old.jpg"
     }
 }
 
