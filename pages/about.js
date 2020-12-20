@@ -210,7 +210,7 @@ function getOldName() {
 }
 
 Index.getInitialProps = function () {
-    return Math.random() > 0.2 ? getFunName() : getOldName();
+    return Math.random() > 0.05 ? getFunName() : getOldName();
 };
 
 export default Index;
