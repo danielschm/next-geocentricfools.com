@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Merch = props => (
+const Merch_outdated = props => (
     <Page>
         <Title page="Merch"/>
         <div id="dialog">
@@ -176,4 +176,4 @@ function closeDialog() {
 }
 
 
-export default Merch
+export default Merch_outdated

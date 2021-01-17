@@ -21,9 +21,6 @@ const Header = props => (
                 <Link href="/about" passHref>
                     <Nav.Link>About</Nav.Link>
                 </Link>
-                <Link href="/merch" passHref>
-                    <Nav.Link>Merch</Nav.Link>
-                </Link>
                 <NavDropdown title="Discography" id="basic-nav-dropdown">
                     <Link href="/discography/foaks" passHref>
                         <NavDropdown.Item>Future Is On A Killing Spree</NavDropdown.Item>
