@@ -24,7 +24,7 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
-            <a style={{"margin-left": 0}}
+            <a style={{"marginLeft": 0}}
                href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
                target={"_blank"}>
                 <Button>
@@ -32,7 +32,7 @@ const Banner = (props) => (
                     {/*<FontAwesomeIcon className="navIcon" icon={faSpotify}/>*/}
                 </Button>
             </a>
-            <Link href="/about" passHref>
+            <Link href="/about/us" passHref>
                 <a>
                     <Button variant="secondary">
                         <span className={"bannerButton"}>About</span>
@@ -41,10 +41,6 @@ const Banner = (props) => (
             </Link>
         </div>
         <style jsx>{`
-             .bannerButton {
-                font-weight: 500 !important;
-            }
-            
             .textMargin {
                 margin-right: 0.5rem;
             }

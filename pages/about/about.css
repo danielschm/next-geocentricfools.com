@@ -1,0 +1,49 @@
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--text);
+}
+
+p {
+    color: var(--text);
+}
+
+img {
+    width: 100%;
+    min-width: 10rem;
+    min-height: 10rem;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+video {
+    width: 100%;
+    border: 5px solid rgba(255,255,255,0.15);
+}
+
+.bottom-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

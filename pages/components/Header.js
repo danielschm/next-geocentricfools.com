@@ -18,9 +18,17 @@ const Header = props => (
                 <Link href="/" passHref>
                     <Nav.Link>Home</Nav.Link>
                 </Link>
-                <Link href="/about" passHref>
-                    <Nav.Link>About</Nav.Link>
-                </Link>
+                <NavDropdown title="About" id="basic-nav-dropdown">
+                    <Link href="/about/us" passHref>
+                        <NavDropdown.Item>Us</NavDropdown.Item>
+                    </Link>
+                    <Link href="/about/matt" passHref>
+                        <NavDropdown.Item>Matt</NavDropdown.Item>
+                    </Link>
+                    <Link href="/about/dan" passHref>
+                        <NavDropdown.Item>Dan</NavDropdown.Item>
+                    </Link>
+                </NavDropdown>
                 <NavDropdown title="Discography" id="basic-nav-dropdown">
                     <Link href="/discography/foaks" passHref>
                         <NavDropdown.Item>Future Is On A Killing Spree</NavDropdown.Item>

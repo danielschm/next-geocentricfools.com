@@ -8,11 +8,11 @@ import Footer from "./Footer";
 const Page = props => (
     <div className="page">
         <Includes/>
-        <video autoPlay muted loop id="backgroundVideo">
-            <source src="/video/background3.mp4" type="video/mp4"/>
-        </video>
-        {/*<div className="bg"/>*/}
-        {/*<div className="bg-blur"/>*/}
+        {/*<video autoPlay muted loop id="backgroundVideo">*/}
+        {/*    <source src="/video/background3.mp4" type="video/mp4"/>*/}
+        {/*</video>*/}
+        <div className="bg"/>
+        <div className="bg-blur"/>
         <div className="backdrop"/>
         <div id="content">
             <Header className="transparent"/>

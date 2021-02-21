@@ -9,11 +9,11 @@ function Page(props) {
     return (
         <div className="page">
             <Includes/>
-            <video autoPlay muted loop id="backgroundVideo">
-                <source src={"/video/" + props.background} type="video/mp4"/>
-            </video>
+            {/*<video autoPlay muted loop id="backgroundVideo">*/}
+            {/*    <source src={"/video/" + props.background} type="video/mp4"/>*/}
+            {/*</video>*/}
             <div className="backdrop"/>
-            {/*<div className="bg"/>*/}
+            <div className="bg"/>
             <div id="content">
                 <Header className="transparent"/>
                 <div className="padding-top">
