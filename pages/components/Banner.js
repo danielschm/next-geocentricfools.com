@@ -11,7 +11,7 @@ import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
 const Banner = (props) => (
     <div className="bannerContainer">
         <div className="container">
-            <div className="banner text-light">
+            <div className="banner">
                 <div>We are</div>
                 <h1>Geocentric Fools</h1>
                 <div className="slogan">
@@ -28,14 +28,14 @@ const Banner = (props) => (
                href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
                target={"_blank"}>
                 <Button>
-                    <span className="bannerButton textMargin">Spotify</span>
-                    <FontAwesomeIcon className="navIcon" icon={faSpotify}/>
+                    <span className={"bannerButton"}>Spotify</span>
+                    {/*<FontAwesomeIcon className="navIcon" icon={faSpotify}/>*/}
                 </Button>
             </a>
             <Link href="/about" passHref>
                 <a>
-                    <Button id="secondaryButton" style={{background: "rgba(0,0,0,0.5)"}}>
-                        <span className="bannerButton secondary">About</span>
+                    <Button variant="secondary">
+                        <span className={"bannerButton"}>About</span>
                     </Button>
                 </a>
             </Link>
@@ -47,10 +47,6 @@ const Banner = (props) => (
             
             .textMargin {
                 margin-right: 0.5rem;
-            }
-            
-            .secondary {
-                color: var(--primary);
             }
             
             .bannerContainer {
@@ -85,7 +81,6 @@ const Banner = (props) => (
                 display: table-caption;
                 line-height: 1.3;
                 font-size: 1.3rem;
-                color: white;
                 padding: 0.5rem 0 0.5rem 1rem;
                 margin-bottom: 1rem;
                 margin-left: -1rem;

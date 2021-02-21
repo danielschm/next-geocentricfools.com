@@ -2,8 +2,8 @@ import Banner from "./components/Banner";
 import Title from "./components/includes/Title";
 import IndexPage from "./components/IndexPage";
 
-const Index = ({slogan}) => (
-    <IndexPage>
+const Index = ({slogan, background}) => (
+    <IndexPage background={background}>
         <Title/>
         <Banner slogan={slogan}/>
     </IndexPage>
@@ -30,8 +30,11 @@ Index.getInitialProps = async function () {
     let iIndex = Math.random() * (aSlogans.length - 0.001);
     iIndex = parseInt(iIndex, 10);
 
+    const sBackground = Math.random() > 0.1 ? "background3.mp4" : "background4.mp4";
+
     return {
-        slogan: aSlogans[iIndex]
+        slogan: aSlogans[iIndex],
+        background: sBackground
     };
 };
 

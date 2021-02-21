@@ -1,15 +1,34 @@
+:root {
+    --logo: #ecec8e;
+    --textcolor: #ffffff;
+}
+
 html, body, #__next {
     height: 100%;
 }
 
 body {
-    color: #f9f9f9;
+    /*color: black;*/
+    color: var(--textcolor);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #f4f4f4;
+    /*color: black;*/
+    color: var(--textcolor);
 }
 
 .transparent {
     background-color: transparent !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--textcolor) !important;
+}
+
+#geologo svg {
+    fill: var(--primary);
+}
+
+#geologo:hover>svg {
+    fill: var(--primary-hover);
 }

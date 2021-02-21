@@ -26,9 +26,10 @@
     --white: #fff;
     --gray: #868e96;
     --gray-dark: #343a40;
-    --primary: #ecec8e;
-    --primary-hover: #d4ecb6;
-    --secondary: #adb5bd;
+    --primary: #e22c98;
+    --primary-hover: rgba(236, 236, 142, 0.66);
+    --secondary: #2e4c76;
+    --secondary-hover: rgba(46, 76, 118, 0.64);
     --success: #02B875;
     --info: #17a2b8;
     --warning: #f0ad4e;
@@ -2983,7 +2984,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     /*color: #fff;*/
-    background-color: var(--primary);
+    background-color: var(--primary-hover);
     border-color: var(--primary);
 }
 
@@ -3016,14 +3017,15 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #adb5bd;
-    border-color: #adb5bd;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    border-width: 2px;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #98a2ac;
-    border-color: #919ca6;
+    background-color: var(--secondary-hover);
+    border-color: var(--secondary);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {

@@ -8,8 +8,11 @@ import Footer from "./Footer";
 const Page = props => (
     <div className="page">
         <Includes/>
-        <div className="bg"/>
-        <div className="bg-blur"/>
+        <video autoPlay muted loop id="backgroundVideo">
+            <source src="/video/background3.mp4" type="video/mp4"/>
+        </video>
+        {/*<div className="bg"/>*/}
+        {/*<div className="bg-blur"/>*/}
         <div className="backdrop"/>
         <div id="content">
             <Header className="transparent"/>
@@ -21,6 +24,21 @@ const Page = props => (
             </div>
         </div>
         <style jsx>{`
+             #backgroundVideo {
+                z-index: -2;
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                transform: translateX(calc((100% - 100vw) / 2)) translateY(calc(100% - 100vh));
+                -webkit-filter: blur(5px);
+                -moz-filter: blur(5px);
+                -o-filter: blur(5px);
+                -ms-filter: blur(5px);
+                filter: blur(5px);
+             }
+        
              #content {
                 display: flex;
                 flex-direction: column;

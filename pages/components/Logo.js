@@ -1,6 +1,6 @@
 export default props => {
     return (
-        <div>
+        <div id="geologo">
             <svg width="4rem" height="4rem" viewBox="0 0 850.39 850.391">
                 <path d="M423.037,157.73c0,12.16,0,23.975,0,35.788c-75.177,4.577-135.823,36.333-179.908,97.729
                 c-30.478,42.446-43.892,90.428-41.624,142.558c1.964,45.163,16.441,86.187,42.826,123.319
@@ -39,12 +39,7 @@ export default props => {
                 div svg {
                     height: 4rem;
                     width: 4rem;
-                    fill: white; 
                     cursor: pointer;
-                }
-                
-                div:hover>svg {
-                    fill: #f7ff9d;
                 }
             `}</style>
         </div>

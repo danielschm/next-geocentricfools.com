@@ -1,16 +1,3 @@
-.musicPage img {
-    float: left;
-    height: 18rem;
-    width: 18rem;
-    margin-right: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.musicPage .description {
-    line-height: 1.8;
-    color: var(--text);
-}
-
 .musicPage .socialIcons a {
     color: rgba(255, 255, 255, 0.88);
     margin: 0 1rem;
@@ -19,12 +6,4 @@
 
 .musicPage .socialIcons a:hover {
     color: var(--primary);
-}
-
-.musicPage .subtitle {
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: -0.6rem 0 1rem 0;
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
 }
