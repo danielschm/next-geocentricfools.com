@@ -1,12 +1,8 @@
 import MusicPage from "./MusicPage";
-import Title from "../components/includes/Title";
-
-import Container from "react-bootstrap/Container";
 import SocialIcon from "../components/SocialIcon";
 
 const Index = () => (
     <MusicPage title="Will Come Home" sub="2nd August 2019" cover="/img/albums/willcomehome.jpg">
-        <img src="/img/albums/willcomehome.jpg"/>
         <div className="socialIcons">
             <SocialIcon
                 spotify="https://open.spotify.com/album/5ZJ3LdZ3GTgQ0ctDR7lOLg?si=PpiwkJcPRDaEPZAEfOnD7g"

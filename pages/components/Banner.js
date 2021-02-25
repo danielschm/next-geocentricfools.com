@@ -1,12 +1,6 @@
 import Link from "next/link";
 import Button from 'react-bootstrap/Button';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
-import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
-import {faArrowRight} from "@fortawesome/free-solid-svg-icons/faArrowRight";
-import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
-import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
-import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
+import "./banner.css";
 
 const Banner = (props) => (
     <div className="bannerContainer">
@@ -25,17 +19,17 @@ const Banner = (props) => (
                 </div>
             </div>
             <a style={{"marginLeft": 0}}
-               href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK"}
+               href={"https://open.spotify.com/track/24h8Lo7bUEf1tc6JfydNtg?si=ZrRprTuLQ7SEvIbTyyZDQQ"}
                target={"_blank"}>
-                <Button>
-                    <span className={"bannerButton"}>Spotify</span>
+                <Button id="mainButton">
+                    <span>New Single OUT NOW</span>
                     {/*<FontAwesomeIcon className="navIcon" icon={faSpotify}/>*/}
                 </Button>
             </a>
             <Link href="/about/us" passHref>
                 <a>
                     <Button variant="secondary">
-                        <span className={"bannerButton"}>About</span>
+                        <span>About</span>
                     </Button>
                 </a>
             </Link>
