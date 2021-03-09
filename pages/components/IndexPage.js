@@ -15,7 +15,7 @@ function Page(props) {
             <div className="backdrop"/>
             <div className="bg"/>
             <div id="content">
-                <Header className="transparent"/>
+                <Header/>
                 <div className="padding-top">
                     {props.children}
                 </div>

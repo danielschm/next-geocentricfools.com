@@ -15,7 +15,7 @@ const Page = props => (
         <div className="bg-blur"/>
         <div className="backdrop"/>
         <div id="content">
-            <Header className="transparent"/>
+            <Header/>
             <div className="padding-top">
                 {props.children}
             </div>
