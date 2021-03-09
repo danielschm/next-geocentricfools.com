@@ -34,8 +34,10 @@ function capitalize(sentence, count) {
 
 }
 
+const sPath = "./pages/lyrics/";
+
 async function read() {
-    const aFoundPaths = await readFiles("./");
+    const aFoundPaths = await readFiles(sPath);
     const aDirectories = aFoundPaths.filter(e => e.indexOf(".") === -1);
 
     aDirectories.sort((a, b) => {
@@ -46,7 +48,7 @@ async function read() {
     for (const sDir of aDirectories) {
         const sName = sDir.replace(/-/g, "_");
         oLyrics[capitalize(sName, 2)] = {};
-        const aFiles = await readFiles("./" + sDir);
+        const aFiles = await readFiles(sPath + sDir);
 
         aFiles.sort((a, b) => {
             return parseInt(a.split("-")[0], 10) - parseInt(b.split("-")[0], 10);
@@ -62,6 +64,5 @@ async function read() {
 
 read().then(() => {
     console.log(oLyrics);
-    fs.writeFileSync("./lyrics.json", JSON.stringify(oLyrics, null, 2), 'utf8');
+    fs.writeFileSync("./pages/lyrics/lyrics.json", JSON.stringify(oLyrics, null, 2), 'utf8');
 });
-
