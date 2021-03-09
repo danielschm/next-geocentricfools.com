@@ -2,8 +2,33 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from './Logo';
-import LyricsLinks from '../lyrics/LyricsLinks';
 import Link from 'next/link';
+import oLyrics from "../lyrics/lyrics.json";
+
+const LyricsLinks = <NavDropdown key="lyrics" title="Lyrics" id="lyrics">
+    {
+        Object.keys(oLyrics).map((release, i) => {
+
+            const sYear = release.split("_")[0];
+            const sDropdownTitle = `${release.split("_").slice(2).join(" ")} (${sYear})`;
+
+            return <NavDropdown key={i} title={sDropdownTitle} id="basic-nav-dropdown">
+                <>
+                    {
+                        Object.keys(oLyrics[release]).map((title, i) => {
+                            const sLink = `/lyrics/${release.replace(/_/g, "-").toLowerCase()}/${oLyrics[release][title]}`;
+                            const sLinkTitle = title.replace(/_/g, " ");
+                            return <Link key={i} href={sLink} passHref>
+                                <NavDropdown.Item key={i}>{sLinkTitle}</NavDropdown.Item>
+                            </Link>;
+                        })
+                    }
+                </>
+            </NavDropdown>
+
+        })
+    }
+</NavDropdown>
 
 const Header = props => (
     <Navbar className="transparent" bg="dark" variant="dark" expand="lg" sticky="top">
