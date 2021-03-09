@@ -18,7 +18,7 @@ const Header = props => (
                 <Link href="/" passHref>
                     <Nav.Link>Home</Nav.Link>
                 </Link>
-                <NavDropdown title="About" id="basic-nav-dropdown">
+                <NavDropdown id="about" key="about" title="About">
                     <Link href="/about/us" passHref>
                         <NavDropdown.Item>Us</NavDropdown.Item>
                     </Link>
@@ -29,7 +29,7 @@ const Header = props => (
                         <NavDropdown.Item>Dan</NavDropdown.Item>
                     </Link>
                 </NavDropdown>
-                <NavDropdown title="Discography" id="basic-nav-dropdown">
+                <NavDropdown id="discography" key="discography" title="Discography">
                     <Link href="/discography/sonntag-auf-dem-mond" passHref>
                         <NavDropdown.Item>Sonntag auf dem Mond (2020)</NavDropdown.Item>
                     </Link>
@@ -44,7 +44,7 @@ const Header = props => (
                     </Link>
                 </NavDropdown>
                 {LyricsLinks}
-                <NavDropdown title="Playlists" id="basic-nav-dropdown">
+                <NavDropdown id="playlists" key="playlists" title="Playlists">
                     <NavDropdown.Item href="https://relax.geocentricfools.com/" target="_blank">
                         Relax with Trax (Fools Collection)
                     </NavDropdown.Item>
