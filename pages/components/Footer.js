@@ -30,7 +30,7 @@ export default props => {
                 </a>
             </div>
             <span>
-                    © ℗ 2020 GEOCENTRIC FOOLS
+                    © ℗ {new Date().getFullYear()} GEOCENTRIC FOOLS
                 </span>
             <style jsx>{`
                 #footer {
