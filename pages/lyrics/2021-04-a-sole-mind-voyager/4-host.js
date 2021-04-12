@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 const Index = props => [
     <LyricsPage>
-        <Title page="Lyrics: Interlude"/>
+        <Title page="Lyrics: Host-"/>
         <Container>
             <h1>Interlude</h1>
             Imagine a spirit from cosmos<br/>

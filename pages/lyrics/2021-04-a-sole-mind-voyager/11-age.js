@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 
 const Index = props => [
     <LyricsPage>
-        <Title page="Lyrics: Interlude 2"/>
+        <Title page="Lyrics: Age"/>
         <Container>
-            <h1>Interlude 2</h1>
+            <h1>Age</h1>
             *Piano*
         </Container>
     </LyricsPage>
