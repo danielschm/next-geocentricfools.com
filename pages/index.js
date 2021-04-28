@@ -10,10 +10,10 @@ const Index = ({slogan, background}) => (
 );
 
 Index.getInitialProps = async function () {
-    const aSlogans = [
+    let aSlogans = [
         ["We will have a large", "bowl of pasta afterwards"],
         ["Kilroy was here"],
-        ["Actually this is only a side project","and we play Worms professionally"],
+        ["Actually this is only a side project", "and we play Worms professionally"],
         ["Dan is the man and", "Matt is the bat"],
         ["Dan is the man and", "Matt is the rat"],
         ["Feed me Seymour!"],
@@ -23,9 +23,22 @@ Index.getInitialProps = async function () {
         ["Swearing is caring"],
         ["We programed happiness", "on your computer"],
         ["Suh dude?"],
-        ["And we are so fresh and so clean","and also we are frisch und sauber"],
+        ["And we are so fresh and so clean", "and also we are frisch und sauber"],
         ["But the world is a globe"]
     ];
+
+    aSlogans = [
+        ["New Album on", "30th April 2021"]
+    ];
+
+    if (new Date() > new Date("2021-04-29")) {
+        aSlogans = [
+            ["Check out our new album", "on Spotify, Apple Music & many more"],
+            ["OPEN SPOTIFY NOW... SRSLY", "OUR NEW ALBUM IS OUT NOW"],
+            ["Dear Sir or Madam,", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
+            ["As Albert Einstein said", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
+        ];
+    }
 
     let iIndex = Math.random() * (aSlogans.length - 0.001);
     iIndex = parseInt(iIndex, 10);

@@ -19,12 +19,12 @@ const Banner = (props) => (
                 </div>
             </div>
             <a style={{"marginLeft": 0}}
-               // href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK?si=WKvyS7E4R3m2tiWEyRdaJQ"}
-               href={"https://open.spotify.com/track/0PVy1QQzvTJIRVCCQ4xSJl?si=mul4nmzOQMCsFcYGU5zmdQ"}
+               href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK?si=WKvyS7E4R3m2tiWEyRdaJQ"}
+               // href={"https://open.spotify.com/track/0PVy1QQzvTJIRVCCQ4xSJl?si=mul4nmzOQMCsFcYGU5zmdQ"}
                target={"_blank"}>
                 <Button id="mainButton">
-                    <span>New Single Fatal Foolness</span>
-                    {/*<span>> Spotify</span>*/}
+                    {/*<span>New Single Fatal Foolness</span>*/}
+                    <span>> Spotify</span>
                 </Button>
             </a>
             <Link href="/about/us" passHref>
