@@ -6,7 +6,8 @@ const Banner = (props) => (
     <div className="bannerContainer">
         <div className="container">
             <div className="banner">
-                <div>We are</div>
+                <div>New Album OUT NOW<br/><b>A Sole Mind Voyager</b></div>
+                {/*<div>We are</div>*/}
                 <h1>Geocentric Fools</h1>
                 <div className="slogan">
                     {props.slogan ? props.slogan.map((e, i) => {
@@ -19,12 +20,12 @@ const Banner = (props) => (
                 </div>
             </div>
             <a style={{"marginLeft": 0}}
-               href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK?si=WKvyS7E4R3m2tiWEyRdaJQ"}
-               // href={"https://open.spotify.com/track/0PVy1QQzvTJIRVCCQ4xSJl?si=mul4nmzOQMCsFcYGU5zmdQ"}
+               // href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK?si=WKvyS7E4R3m2tiWEyRdaJQ"}
+               href={"https://open.spotify.com/album/4ZPBYw4H7t0zbBqgsQk2ym?si=gbu4d6N3TYaSI5lYpVfMXA"}
                target={"_blank"}>
                 <Button id="mainButton">
                     {/*<span>New Single Fatal Foolness</span>*/}
-                    <span>> Spotify</span>
+                    <span>Smash this Button</span>
                 </Button>
             </a>
             <Link href="/about/us" passHref>

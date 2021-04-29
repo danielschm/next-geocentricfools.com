@@ -35,8 +35,8 @@ Index.getInitialProps = async function () {
         aSlogans = [
             ["Check out our new album", "on Spotify, Apple Music & many more"],
             ["OPEN SPOTIFY NOW... SRSLY", "OUR NEW ALBUM IS OUT NOW"],
-            ["Dear Sir or Madam,", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
-            ["As Albert Einstein said", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
+            ["Dear Sir or Madam, we kindly ask you to", "LISTEN TO OUR NEW ALBUM RIGHT NOW"],
+            ["As Albert Einstein once said", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
         ];
     }
 
