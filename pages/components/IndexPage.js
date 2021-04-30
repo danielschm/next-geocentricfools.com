@@ -67,7 +67,7 @@ function Page(props) {
                 height: 100%;
                 width: 100%;
                 position: fixed;
-                background-image: url("/img/bg/bg-2020.jpg");
+                background-image: url("/img/bg/bg-2021.jpg");
                 background-position: 38%;
                 background-size: cover;
                 background-repeat: no-repeat;
