@@ -54,6 +54,9 @@ const Header = props => (
                         <NavDropdown.Item>Dan</NavDropdown.Item>
                     </Link>
                 </NavDropdown>
+                <Link href="/gallery" passHref>
+                    <Nav.Link>Gallery</Nav.Link>
+                </Link>
                 <NavDropdown id="discography" key="discography" title="Discography">
                     <Link href="/discography/a-sole-mind-voyager" passHref>
                         <NavDropdown.Item>A Sole Mind Voyager (2021)</NavDropdown.Item>

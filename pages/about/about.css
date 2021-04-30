@@ -27,15 +27,15 @@ p {
     color: var(--text);
 }
 
-img {
-    width: 100%;
-    min-width: 10rem;
-    min-height: 10rem;
-    float: left;
-    margin-right: 2rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(255,255,255,0.1);
-}
+/*img {*/
+/*    width: 100%;*/
+/*    min-width: 10rem;*/
+/*    min-height: 10rem;*/
+/*    float: left;*/
+/*    margin-right: 2rem;*/
+/*    margin-bottom: 1.5rem;*/
+/*    border: 1px solid rgba(255,255,255,0.1);*/
+/*}*/
 
 video {
     width: 100%;
