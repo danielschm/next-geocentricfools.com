@@ -7,6 +7,12 @@ const Index = () => (
             <SocialIcon
                 spotify="https://open.spotify.com/album/0YvmMgKylU1dYFIJUqESDG?si=kjjebGudTvery86Cu5UvRA"
                 size="2x"/>
+            <SocialIcon
+                apple="https://music.apple.com/album/future-is-on-a-killing-spree/1458634418"
+                size="2x"/>
+            <SocialIcon
+                youtube="https://music.youtube.com/playlist?list=OLAK5uy_kWypiDdLgoYIRK8YF1RXjbpI71gBWoA4g&feature=share"
+                size="2x"/>
             <SocialIcon soundcloud="https://soundcloud.com/geocentricfools/sets/future-is-on-a-killing-spree"
                         size="2x"/>
         </div>

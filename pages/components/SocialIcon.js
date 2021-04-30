@@ -6,6 +6,7 @@ import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
 import {faMixcloud} from "@fortawesome/free-brands-svg-icons/faMixcloud";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
+import {faApple} from "@fortawesome/free-brands-svg-icons/faApple";
 
 export default props => {
     let icon, link;
@@ -30,6 +31,9 @@ export default props => {
     } else if (props.twitter) {
         icon = faTwitter;
         link = props.twitter;
+    } else if (props.apple) {
+        icon = faApple;
+        link = props.apple;
     }
 
     return (

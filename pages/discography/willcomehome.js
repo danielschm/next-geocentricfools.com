@@ -8,6 +8,12 @@ const Index = () => (
                 spotify="https://open.spotify.com/album/5ZJ3LdZ3GTgQ0ctDR7lOLg?si=PpiwkJcPRDaEPZAEfOnD7g"
                 size="2x"/>
             <SocialIcon
+                apple="https://music.apple.com/album/will-come-home-stranger-things-homage-single/1473418228"
+                size="2x"/>
+            <SocialIcon
+                youtube="https://music.youtube.com/playlist?list=OLAK5uy_ntqXniXEdBjiwoKnE8zXqwwoK0iAVyxbY&feature=share"
+                size="2x"/>
+            <SocialIcon
                 soundcloud="https://soundcloud.com/geocentricfools/sets/will-come-home-stranger-things-homage"
                 size="2x"/>
         </div>
