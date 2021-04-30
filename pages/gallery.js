@@ -47,7 +47,7 @@ const aImages = {
         "matt_2.jpg",
         "matt_3.jpg",
         "matt_dan.jpg",
-        "matt_dan_2.jpg"
+        // "matt_dan_2.jpg"
     ]
 }
 
