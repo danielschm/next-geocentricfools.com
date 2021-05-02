@@ -13,6 +13,9 @@ const Index = () => (
             <SocialIcon
                 youtube="https://music.youtube.com/playlist?list=OLAK5uy_lbpAzxQe2ehy5L8WMzFWDz2W6OSbGzCmo&feature=share"
                 size="2x"/>
+            <SocialIcon
+                bandcamp="https://geocentricfools.bandcamp.com/album/a-sole-mind-voyager"
+                size="2x"/>
             <SocialIcon soundcloud="https://soundcloud.com/geocentricfools/sets/a-sole-mind-voyager" size="2x"/>
         </div>
         <br/>

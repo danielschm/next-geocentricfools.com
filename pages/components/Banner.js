@@ -6,8 +6,8 @@ const Banner = (props) => (
     <div className="bannerContainer">
         <div className="container">
             <div className="banner">
-                <div>New Album OUT NOW<br/><b>A Sole Mind Voyager</b></div>
-                {/*<div>We are</div>*/}
+                {/*<div>New Album OUT NOW<br/><b>A Sole Mind Voyager</b></div>*/}
+                <div>We are</div>
                 <h1>Geocentric Fools</h1>
                 <div className="slogan">
                     {props.slogan ? props.slogan.map((e, i) => {
@@ -25,7 +25,7 @@ const Banner = (props) => (
                target={"_blank"}>
                 <Button id="mainButton">
                     {/*<span>New Single Fatal Foolness</span>*/}
-                    <span>Smash this Button</span>
+                    <span>Spotify</span>
                 </Button>
             </a>
             <Link href="/about/us" passHref>

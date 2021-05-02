@@ -2,9 +2,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSpotify} from "@fortawesome/free-brands-svg-icons/faSpotify";
 import {faFacebook} from "@fortawesome/free-brands-svg-icons/faFacebook";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons/faInstagram";
-import {faSoundcloud} from "@fortawesome/free-brands-svg-icons/faSoundcloud";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons/faTwitter";
 import {faYoutube} from "@fortawesome/free-brands-svg-icons/faYoutube";
+import {faBandcamp} from "@fortawesome/free-brands-svg-icons/faBandcamp";
 
 export default props => {
     return (
@@ -19,8 +19,8 @@ export default props => {
                 <a href="https://instagram.com/geocentricfools" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} size="lg"/>
                 </a>
-                <a href="https://soundcloud.com/geocentricfools" target="_blank">
-                    <FontAwesomeIcon icon={faSoundcloud} size="lg"/>
+                <a href="https://geocentricfools.bandcamp.com" target="_blank">
+                    <FontAwesomeIcon icon={faBandcamp} size="lg"/>
                 </a>
                 <a href="https://youtube.com/channel/UC7PEKkhCaDoLMfEo0H-apeg" target="_blank">
                     <FontAwesomeIcon icon={faYoutube} size="lg"/>

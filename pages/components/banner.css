@@ -6,5 +6,5 @@
 
 #mainButton {
     transform: scale(1);
-    animation: scale 2s ease 0s infinite;
+    /*animation: scale 2s ease 0s infinite;*/
 }

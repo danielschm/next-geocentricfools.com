@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 
 const Index = props => [
     <LyricsPage>
-        <Title page="Lyrics: Empress of Emptiness"/>
+        <Title page="Lyrics: Emperor of Emptiness"/>
         <Container>
-            <h1>Empress of Emptiness</h1>
+            <h1>Emperor of Emptiness</h1>
             [Verse]<br/>
             I think therefore I am<br/>
             Write these words with my pen<br/>

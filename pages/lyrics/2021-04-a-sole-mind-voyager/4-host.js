@@ -6,7 +6,7 @@ const Index = props => [
     <LyricsPage>
         <Title page="Lyrics: Host-"/>
         <Container>
-            <h1>Interlude</h1>
+            <h1>Host-</h1>
             Imagine a spirit from cosmos<br/>
             Nothing knows it exists<br/>
             It wanders from host to host<br/>

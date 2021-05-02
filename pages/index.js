@@ -27,18 +27,18 @@ Index.getInitialProps = async function () {
         ["But the world is a globe"]
     ];
 
-    aSlogans = [
-        ["New Album on", "30th April 2021"]
-    ];
-
-    if (new Date() > new Date("2021-04-29")) {
-        aSlogans = [
-            ["Check out our new album", "on Spotify, Apple Music & many more"],
-            ["OPEN SPOTIFY NOW... SRSLY", "OUR NEW ALBUM IS OUT NOW"],
-            ["Dear Sir or Madam, we kindly ask you to", "LISTEN TO OUR NEW ALBUM RIGHT NOW"],
-            ["As Albert Einstein once said", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
-        ];
-    }
+    // aSlogans = [
+    //     ["New Album on", "30th April 2021"]
+    // ];
+    //
+    // if (new Date() > new Date("2021-04-29")) {
+    //     aSlogans = [
+    //         ["Check out our new album", "on Spotify, Apple Music & many more"],
+    //         ["OPEN SPOTIFY NOW... SRSLY", "OUR NEW ALBUM IS OUT NOW"],
+    //         ["Dear Sir or Madam, we kindly ask you to", "LISTEN TO OUR NEW ALBUM RIGHT NOW"],
+    //         ["As Albert Einstein once said", "LISTEN TO OUR NEW ALBUM RIGHT NOW PLZ"],
+    //     ];
+    // }
 
     let iIndex = Math.random() * (aSlogans.length - 0.001);
     iIndex = parseInt(iIndex, 10);
