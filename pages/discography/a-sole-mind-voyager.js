@@ -2,7 +2,7 @@ import MusicPage from "./MusicPage";
 import SocialIcon from "../components/SocialIcon";
 
 const Index = () => (
-    <MusicPage title="A Sole Mind Voyager" sub="6th December 2019" cover="/img/albums/a-sole-mind-voyager.jpg">
+    <MusicPage title="A Sole Mind Voyager" sub="30th April 2021" cover="/img/albums/a-sole-mind-voyager.jpg">
         <div className="socialIcons">
             <SocialIcon
                 spotify="https://open.spotify.com/album/4ZPBYw4H7t0zbBqgsQk2ym?si=-4jes9PJSYubi0JNQeFcmg"
