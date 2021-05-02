@@ -6,6 +6,16 @@ html, body, #__next {
     height: 100%;
 }
 
+*::-moz-selection { /* Code for Firefox */
+    background: var(--primary);
+    color: black;
+}
+
+*::selection {
+    background: var(--primary);
+    color: black;
+}
+
 body {
     /*color: black;*/
     color: var(--textcolor);

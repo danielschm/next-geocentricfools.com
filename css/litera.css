@@ -4923,6 +4923,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none;
+    outline-color: var(--primary);
 }
 
 .navbar-toggler-icon {
