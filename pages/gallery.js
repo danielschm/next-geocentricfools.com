@@ -34,7 +34,7 @@ const Gallery = props => (
 const aImages = {
     horizontal: [
         "dan.jpg",
-        "dan_matt.jpg",
+        // "dan_matt.jpg",
         "dan_matt_2.jpg",
         "dan_matt_3.jpg",
         "dan_matt_4.jpg",
@@ -44,7 +44,7 @@ const aImages = {
     vertical: [
         "dan.jpg",
         "matt.jpg",
-        "matt_2.jpg",
+        // "matt_2.jpg",
         "matt_3.jpg",
         "matt_dan.jpg",
         // "matt_dan_2.jpg"
