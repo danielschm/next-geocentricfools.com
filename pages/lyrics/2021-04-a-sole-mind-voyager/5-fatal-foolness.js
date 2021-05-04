@@ -7,7 +7,10 @@ const Index = props => [
         <Title page="Lyrics: Fatal Foolness"/>
         <Container>
             <h1>Fatal Foolness</h1>
-            <div className={"video"}/>
+            <a href="https://www.youtube.com/watch?v=gxuV-gFBHLw" target="_blank">
+                <div className={"video"}/>
+                <div className={"small"}>Watch on YouTube</div>
+            </a>
             [Verse]<br/>
             You used to be all in love with harmony<br/>
             (All in love)<br/>
@@ -24,9 +27,18 @@ const Index = props => [
             Once a faithful lover<br/>
         </Container>
         <style jsx>{`
+            .small {
+                font-size: 0.8rem;
+                font-weight: 500;
+                text-align: left;
+                width: 100%;
+                padding-bottom: 1rem;
+            }
+            
+            
             .video {
                 width: 100%;
-                margin: 1rem 0 1rem 0;
+                margin: 1rem 0 0.2rem 0;
                 border: 2px rgba(255,255,255,0.4) solid;
                 height: 10rem;
                 background-position: 50%;
