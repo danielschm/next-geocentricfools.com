@@ -28,15 +28,15 @@ const Banner = (props) => (
             {/*        <span>Spotify</span>*/}
             {/*    </Button>*/}
             {/*</a>*/}
-            <a target="_blank" href="https://youtube.com/watch?v=gxuV-gFBHLw">
-                <Button id="mainButton">
-                    <span>New Music Video</span>
-                </Button>
-            </a>
+            {/*<a target="_blank" href="https://youtube.com/watch?v=gxuV-gFBHLw">*/}
+            {/*    <Button id="mainButton">*/}
+            {/*        <span>New Music Video</span>*/}
+            {/*    </Button>*/}
+            {/*</a>*/}
             <Link href="/discography/a-sole-mind-voyager" passHref>
                 <a>
-                    <Button variant="secondary">
-                        <span>New Album</span>
+                    <Button>
+                        <span>Latest Album</span>
                     </Button>
                 </a>
             </Link>
