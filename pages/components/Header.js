@@ -58,6 +58,9 @@ const Header = props => (
                     <Nav.Link>Gallery</Nav.Link>
                 </Link>
                 <NavDropdown id="discography" key="discography" title="Discography">
+                    <Link href="/discography/poles-like-that-repel" passHref>
+                        <NavDropdown.Item>Poles Like That Repel (2022)</NavDropdown.Item>
+                    </Link>
                     <Link href="/discography/a-sole-mind-voyager" passHref>
                         <NavDropdown.Item>A Sole Mind Voyager (2021)</NavDropdown.Item>
                     </Link>

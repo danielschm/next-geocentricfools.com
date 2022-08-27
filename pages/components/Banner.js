@@ -33,10 +33,10 @@ const Banner = (props) => (
             {/*        <span>New Music Video</span>*/}
             {/*    </Button>*/}
             {/*</a>*/}
-            <Link href="/discography/a-sole-mind-voyager" passHref>
+            <Link href="/discography/poles-like-that-repel" passHref>
                 <a>
                     <Button>
-                        <span>Latest Album</span>
+                        <span>Latest Single</span>
                     </Button>
                 </a>
             </Link>
