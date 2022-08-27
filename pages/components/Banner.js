@@ -19,20 +19,6 @@ const Banner = (props) => (
                     }) : ""}
                 </div>
             </div>
-            {/*<a style={{"marginLeft": 0}}*/}
-            {/*   href={"https://open.spotify.com/artist/0w1oFjdkV5h4OQG8q8htZK?si=WKvyS7E4R3m2tiWEyRdaJQ"}*/}
-            {/*   // href={"https://open.spotify.com/album/4ZPBYw4H7t0zbBqgsQk2ym?si=gbu4d6N3TYaSI5lYpVfMXA"}*/}
-            {/*   target={"_blank"}>*/}
-            {/*    <Button id="mainButton">*/}
-            {/*        /!*<span>New Single Fatal Foolness</span>*!/*/}
-            {/*        <span>Spotify</span>*/}
-            {/*    </Button>*/}
-            {/*</a>*/}
-            {/*<a target="_blank" href="https://youtube.com/watch?v=gxuV-gFBHLw">*/}
-            {/*    <Button id="mainButton">*/}
-            {/*        <span>New Music Video</span>*/}
-            {/*    </Button>*/}
-            {/*</a>*/}
             <Link href="/discography/poles-like-that-repel" passHref>
                 <a>
                     <Button>
